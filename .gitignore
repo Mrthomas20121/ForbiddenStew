@@ -1,0 +1,16 @@
+.curseclient
+BotaniaVars.dat
+patchouli_data.json
+user*.json
+logs
+patchouli_books
+resourcepacks
+saves
+screenshots
+downloads
+journeymap
+local
+mods
+backups
+.mixin.out
+crash-reports
