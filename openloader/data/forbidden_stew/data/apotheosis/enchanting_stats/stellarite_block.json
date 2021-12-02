@@ -1,0 +1,9 @@
+{
+	"block": "forbidden_arcanus:stellarite_block",
+	"stats": {
+		"maxEterna": 50,
+		"eterna": 10,
+		"quanta": -10,
+		"arcana": -10
+	}
+}

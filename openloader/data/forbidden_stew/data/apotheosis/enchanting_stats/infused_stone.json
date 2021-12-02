@@ -1,0 +1,9 @@
+{
+	"block": "naturesaura:infused_stone",
+	"stats": {
+		"maxEterna": 15,
+		"eterna": 3,
+		"quanta": 0.2,
+		"arcana": 0.2
+	}
+}

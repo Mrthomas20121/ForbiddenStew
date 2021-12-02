@@ -1,0 +1,222 @@
+{
+	id: "7B28E31A4AB72DF4"
+	group: ""
+	order_index: 0
+	filename: "getting_started"
+	title: "Getting Started"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Getting Started"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Welcome to Forbidden Stew!"
+			id: "56716A317CC97C77"
+			tasks: [{
+				id: "2E12F8437A32B017"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5211484DF8666833"
+				type: "item"
+				item: {
+					id: "akashictome:tome"
+					Count: 1b
+					tag: {
+						"akashictome:data": {
+							modularrouters: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "modularrouters:book"
+								}
+							}
+							industrialforegoing: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
+								}
+							}
+							powah: {
+								id: "powah:book"
+								Count: 1b
+							}
+							resourcefulbees: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+								}
+							}
+							astralsorcery: {
+								id: "astralsorcery:tome"
+								Count: 1b
+							}
+							ftbquests: {
+								id: "ftbquests:book"
+								Count: 1b
+							}
+							thermal: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "thermal:guidebook"
+								}
+							}
+							naturesaura: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "naturesaura:book"
+								}
+							}
+							fd_cookbook: {
+								id: "fd_cookbook:cook_book"
+								Count: 1b
+							}
+							malum: {
+								id: "malum:encyclopedia_arcana"
+								Count: 1b
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Getting Wood!"
+			x: 2.0d
+			y: -1.0d
+			subtitle: "Wooden Start"
+			dependencies: ["56716A317CC97C77"]
+			id: "2CE6BDECB8E59E6F"
+			tasks: [{
+				id: "42CC84330FE65576"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			subtitle: "Try not to cut your finger"
+			dependencies: [
+				"2CE6BDECB8E59E6F"
+				"57A69E7ED7270F95"
+			]
+			hide_text_until_complete: false
+			id: "192592FF98927E73"
+			tasks: [
+				{
+					id: "66347F8470E8FB08"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+				{
+					id: "6756E5CD3749322B"
+					type: "item"
+					item: {
+						id: "farmersdelight:flint_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0E4EF4D689885452"
+				type: "random"
+				icon: {
+					id: "blue_skies:loot_bag"
+					Count: 1b
+					tag: {
+						Rarity: 0
+					}
+				}
+				table_id: 4280284694811450553L
+			}]
+		}
+		{
+			title: "Rice Farming"
+			x: 1.5d
+			y: -4.0d
+			subtitle: "My precious Rice!"
+			description: ["&9Rice&r can be found in &2Swamp type biomes&r."]
+			id: "57A69E7ED7270F95"
+			tasks: [
+				{
+					id: "1E8323104B7A0A5E"
+					type: "item"
+					item: "farmersdelight:rice"
+				}
+				{
+					id: "2A376666B19A65CF"
+					type: "item"
+					item: "farmersdelight:rice_panicle"
+				}
+			]
+			rewards: [{
+				id: "09B6C58A02C8E9AF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Straw Man"
+			x: 4.5d
+			y: -4.5d
+			subtitle: "Straw Man, Best Golem"
+			description: [
+				"&eStraw&r is obtained by Cutting down rice on a &6cutting board&r."
+				""
+				"Once you get &o&bDiamonds&r, you can use a &bDiamond Cutting Knife&r on &2Grass&r or &2Fern&r to get &eStraw&r."
+			]
+			dependencies: ["192592FF98927E73"]
+			id: "6E5A903AB0549E82"
+			tasks: [{
+				id: "65D6F5CE072E539E"
+				type: "item"
+				item: "farmersdelight:straw"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1A78DCCF56CDD4FC"
+				type: "item"
+				item: "farmersdelight:straw"
+				count: 6
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			subtitle: "Good Canvas"
+			description: [
+				"&aCanvas&r is an important item."
+				"You will need it for a lot of recipes."
+				""
+				"&7It will be easier to craft as you progress through the pack"
+			]
+			dependencies: ["6E5A903AB0549E82"]
+			id: "4D9589AAEB5B8B6B"
+			tasks: [{
+				id: "379555CF00AB155C"
+				type: "item"
+				item: "farmersdelight:canvas"
+			}]
+			rewards: [{
+				id: "27B59BC24BB0A651"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+}

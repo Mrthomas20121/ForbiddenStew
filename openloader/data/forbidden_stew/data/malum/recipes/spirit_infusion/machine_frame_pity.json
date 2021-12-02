@@ -1,0 +1,31 @@
+{
+    "type": "malum:spirit_infusion",
+    "input": {
+      "item": "minecraft:redstone_block",
+      "count": 1
+    },
+    "output": {
+      "item": "industrialforegoing:machine_frame_pity",
+      "count": 1
+    },
+    "extra_items": [
+      {
+        "item": "minecraft:iron_ingot",
+        "count": 4
+      },
+      {
+        "item": "minecraft:oak_log",
+        "count": 1
+      }
+    ],
+    "spirits": [
+      {
+        "item": "malum:earthen_spirit",
+        "count": 2
+      },
+      {
+        "item": "malum:wicked_spirit",
+        "count": 2
+      }
+    ]
+  }

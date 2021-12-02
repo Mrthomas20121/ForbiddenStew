@@ -1,0 +1,14 @@
+{
+  "type": "betterendforge:alloying",
+  "ingredients": [
+    {
+      "item": "cast_axe:cast_iron_ingot"
+    },
+    {
+      "item": "emendatusenigmatica:coke_gem"
+    }
+  ],
+  "result": "emendatusenigmatica:steel_ingot",
+  "experience": 4.5,
+  "smelttime": 25
+}

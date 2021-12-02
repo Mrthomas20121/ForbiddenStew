@@ -1,0 +1,54 @@
+{
+	id: "0B1529E1B850DFAD"
+	group: ""
+	order_index: 2
+	filename: "the_end"
+	title: "The End"
+	icon: "minecraft:end_stone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "A Hallow End"
+			x: -1.5d
+			y: 0.5d
+			subtitle: "Visit the End Dimension"
+			id: "2CA1AAF15A3EBEF4"
+			tasks: [{
+				id: "7F0E3DB488BC19E0"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "43FF9493588B75E4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "This is one big Dragon"
+			icon: "minecraft:dragon_head"
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["2CA1AAF15A3EBEF4"]
+			id: "1F62BC5FB5C15773"
+			tasks: [{
+				id: "57EE6207B1BE5D0B"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["1F62BC5FB5C15773"]
+			id: "27D1891983C62053"
+			tasks: [{
+				id: "037257EEB72BD874"
+				type: "item"
+				item: "minecraft:dragon_breath"
+			}]
+		}
+	]
+}

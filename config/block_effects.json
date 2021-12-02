@@ -1,0 +1,7 @@
+{
+  "minecraft:soul_sand": {
+    "potionName": "minecraft:wither",
+    "strength": 1,
+    "duration": 100
+  }
+}

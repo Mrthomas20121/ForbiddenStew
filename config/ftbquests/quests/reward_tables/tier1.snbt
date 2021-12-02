@@ -1,0 +1,89 @@
+{
+	id: "3B66A04083C71CB9"
+	order_index: 0
+	title: "Tier1"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:wooden_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 1s
+							id: "apotheosis:life_mending"
+						}
+						{
+							lvl: 7s
+							id: "minecraft:unbreaking"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:dagger_wood"
+				Count: 1b
+				tag: {
+					AS_Amulet_Holder: [I;
+						-1713001079
+						1074874416
+						-1602622271
+						-1255236571
+					]
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 7s
+							id: "minecraft:unbreaking"
+						}
+						{
+							lvl: 1s
+							id: "apotheosis:life_mending"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:hammer_wood"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 7s
+							id: "minecraft:unbreaking"
+						}
+						{
+							lvl: 1s
+							id: "apotheosis:life_mending"
+						}
+					]
+				}
+			}
+		}
+		{ item: "minecraft:stone", count: 5, weight: 10 }
+		{ item: "atmospheric:rosewood_planks", count: 10, weight: 10 }
+		{ item: "farmersdelight:bacon_sandwich" }
+		{ item: "farmersdelight:vegetable_noodles", count: 3 }
+		{ item: "minecraft:oak_sapling", count: 3, weight: 10 }
+		{ item: "outer_end:cooked_stalker_meat", count: 4, weight: 5 }
+		{
+			item: {
+				id: "spartanshields:shield_basic_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "farmersdelight:basket" }
+		{ item: "buildinggadgets:construction_paste_container_creative" }
+		{ item: "blue_skies:cherry", count: 7 }
+	]
+}

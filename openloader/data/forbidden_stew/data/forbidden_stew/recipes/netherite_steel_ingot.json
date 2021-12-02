@@ -1,0 +1,14 @@
+{
+  "type": "betterendforge:alloying",
+  "ingredients": [
+    {
+      "item": "powah:steel_energized"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": "bio_metals:netherite_steel_ingot",
+  "experience": 4.5,
+  "smelttime": 25
+}

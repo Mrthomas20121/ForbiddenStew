@@ -1,0 +1,33 @@
+{
+	id: "4AFC25F36C89E2DF"
+	group: ""
+	order_index: 1
+	filename: "magical_jouney"
+	title: "Magical Jouney"
+	icon: "malum:hallowed_gold_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["4B085BBEB8F0F7E8"]
+			id: "79CC127B89377880"
+			tasks: [{
+				id: "4CF7667BE618206B"
+				type: "item"
+				item: "forbidden_arcanus:arcane_gold_ingot"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			id: "4B085BBEB8F0F7E8"
+			tasks: [{
+				id: "737A1A55AD74FF11"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_ore"
+			}]
+		}
+	]
+}

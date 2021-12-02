@@ -1,0 +1,7 @@
+
+["World gen Option"]
+	"Enable/Disable Zirconium Ore Generation" = true
+	"Enable/Disable Tungsten Ore Generation" = true
+	"Enable/Disable Antimony Ore Generation" = true
+	"Enable/Disable Beryllium Ore Generation" = true
+
