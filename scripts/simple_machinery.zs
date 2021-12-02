@@ -1,0 +1,2 @@
+// coal coke from charred log
+<recipetype:simplemachinery:sieve>.addRecipe("charred_log_to_coal_coke", <item:mysticalworld:charred_planks>, [<item:thermal:coal_coke> % 90, <item:thermal:tar> % 50], 4000, 100);
